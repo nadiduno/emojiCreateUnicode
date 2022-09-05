@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  --primary-color:rgba(0, 0, 0, 0.96);
+}
+body {
+  background:var(--primary-color);
+  text-align: center;
+  display:block;
+  align-items:center;
+  justify-content:center;
+  gap:5rem;
+  font-style: bold;
+  font-weight: 500;
+  font-size: 8rem;
+}
+
